@@ -1,20 +1,21 @@
-.header {   
+.page-header {
+display: grid;
+grid-template-columns: 90% 10%;
 position: absolute;
-width: 1277px;
+width: 100%;
 height: 32px;
-left: 121px;
-top: 179px;
-padding-top: 39px;
-padding-right: 58px;
-padding-left: 58px;
-border: 2px;
-border-color: black;
+left: 58px;
+right: 58px;
+top: 39px;
 }
 
+.search {
+    width: 231px;
+    
+
+}
+
+.avatar {
 
 
-.page-header {
-    display: grid;
-    grid-template-columns: 610px 200px;
-  }
-  
+}
