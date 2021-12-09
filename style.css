@@ -1,21 +1,40 @@
-.page-header {
+
+header {
 display: grid;
 grid-template-columns: 90% 10%;
 position: absolute;
 width: 100%;
-height: 32px;
+height: 36px;
 left: 58px;
 right: 58px;
 top: 39px;
 }
 
 .search {
-    width: 231px;
-    
+width: 251px;
+height: 26px;
+border-radius: 24px;
+border:1px solid #5f6368;
+padding: 12px 8px 0px 14px;
 
 }
 
-.avatar {
+.searchimg {
+width: 26px;
+height: 16px;
 
+
+}
+
+.searchinput {
+outline: none;
+border: none;
+vertical-align:top;
+}
+
+.avatar img {
+width: 36px;
+height: 36px;
+border-radius: 24px;
 
 }
