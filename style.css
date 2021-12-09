@@ -15,6 +15,6 @@ border-color: black;
 
 .page-header {
     display: grid;
-    grid-template-columns: 410px 200px;
+    grid-template-columns: 610px 200px;
   }
   
