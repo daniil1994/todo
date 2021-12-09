@@ -1,0 +1,19 @@
+header {   
+position: absolute;
+width: 1277px;
+height: 32px;
+left: 121px;
+top: 179px;
+padding-top: 39px;
+padding-right: 58px;
+padding-left: 58px;
+border: 2px;
+border-color: black;
+}
+
+
+
+.page-header {
+    display: grid;
+  }
+  
