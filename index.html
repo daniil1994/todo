@@ -3,6 +3,7 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     </head>
 <body>
@@ -11,31 +12,36 @@
             <span><img src="/img/search.svg"></span>
             <input class="searchinput" placeholder="Search for any training you want "></input>
         </div>
-        <span class="avatar"><img src="/img/profile.png"></span>
+        <span class="avatar"><img src="/img/profile.png"> <svg width="11" height="7" viewBox="0 0 11 7" xmlns="http://www.w3.org/2000/svg" class="profile-menu__icon"><path opacity="0.25" d="M5.48805 5.9993C5.25497 5.99976 5.02909 5.91838 4.84962 5.7693L0.859393 2.7693C0.655675 2.59956 0.527565 2.35565 0.503245 2.09122C0.478924 1.8268 0.560387 1.56352 0.72971 1.3593C0.899034 1.15508 1.14235 1.02666 1.40613 1.00228C1.66991 0.977899 1.93255 1.05956 2.13626 1.2293L5.48805 3.7093L8.83984 1.3893C8.94188 1.30623 9.05929 1.2442 9.18532 1.20677C9.31135 1.16934 9.44351 1.15724 9.57422 1.17118C9.70493 1.18512 9.8316 1.22482 9.94696 1.28799C10.0623 1.35117 10.1641 1.43657 10.2464 1.5393C10.3377 1.64212 10.4069 1.76275 10.4496 1.89362C10.4923 2.02449 10.5076 2.16279 10.4945 2.29986C10.4814 2.43692 10.4402 2.56979 10.3734 2.69015C10.3067 2.81051 10.2159 2.91575 10.1067 2.9993L6.11651 5.8293C5.93188 5.95481 5.71061 6.01467 5.48805 5.9993Z"></path></svg></span>
+        <ul class="menu-profile hidden">
+            <li class="menu-profileist-item"><P>Профиль</P></li>
+            <li class="menu-profileist-item"><P>Тариф и оплата</P></li>
+            <li class="menu-profileist-item"><P>Пароль</P></li>
+        </ul>
     </header>
 
 <section>
     <div class="inbox">
         <div class="inbox-right">
             <span>
-                <h1 style = "display: inline-block;" >You’ve got 7 task today </h1> 
-                <a>
-                    <img src="/img/botton.png" class="h1-img ">
-                </a>
+                <h1 style = "display: inline-block;" >Созданные задачи: &nbsp; </h1><output class="summatask" name="o" id="summatasik"></output>
             </span>
             <h2>On Hold</h2>
 
-            <ul>
-                <li><img src="/img/li.svg" class="li-img"><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
-                <li><img src="/img/li.svg" class="li-img"><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
-                <li><img src="/img/li.svg" class="li-img"><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
-                <li><img src="/img/li.svg" class="li-img"><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
+            <ul class="ul-task">
+                <li class="li-task"><img src="/img/li.svg" class="li-img"><p class="li-task-p">Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
+                <li class="li-task"><img src="/img/li.svg" class="li-img"><p class="li-task-p">Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
+                <li class="li-task"><img src="/img/li.svg" class="li-img"><p class="li-task-p">Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
+                <li class="li-task"><img src="/img/li.svg" class="li-img"><p class="li-task-p">Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p><p>Приготовить покушать</p></li>
 
             </ul>
         </div>
         <div class="inbox-left">
-            <p>Пока</p>
-            
+            <div class= "input-task">
+                <input  placeholder="Название задачи" >
+                <a><img src="/img/plus.png" class="h1-img"></a></input> 
+                
+            </div>
         </div>
 
 
@@ -44,6 +50,6 @@
 
 
 </section>
-
+<script src="/script.js"></script>
 </body>
 </html>

@@ -4,6 +4,14 @@ margin-right: 58px;
 
 }
 
+p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 header {
 display: grid;
 grid-template-columns: 90% 10%;
@@ -29,13 +37,37 @@ height: 16px;
 .searchinput {
 outline: none;
 border: none;
-vertical-align:top;
 }
 
 .avatar img {
 width: 36px;
 height: 36px;
 border-radius: 24px;
+}
+
+.profile-menu__icon {
+color: #5B63A9;
+padding: 0px 0px 12px 4px;
+}
+.menu-profile {
+    padding: 15px 32px 15px 16px;
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 12px rgba(10,8,58,.0509804);
+    border-radius: 8px;
+    border: 1px solid #e0e0e088;
+    position: absolute;
+    top: 80px;
+    right: 130px;
+    width: 125px;
+    height: 100px;
+
+}
+
+.menu-profileist-item {
+color: #0a083a;
+margin-bottom: 12px;
+
 }
 
 .inbox {
@@ -64,7 +96,7 @@ background-color: rgb(17, 0, 255);
  }
 
 .h1-img {
-    width: 181px;
+    width: 121px;
     height: 34;
     padding-left: 21px;
      }
@@ -78,31 +110,33 @@ line-height: 27px;
 color: #1D262C;
 }
 
-ul {
+.ul-task {
 width: 100%;
 height: 24px;
 padding: 0px 0px 0px 0px;
 
 }
 
-li {
+.li-task {
 list-style-type: none;
 display: grid;
 grid-template-columns: 2% 40% 15% 15% 18% 10%;
+border-bottom: 0.5px solid #E0E0E0;
+padding-left: 10px;
+padding-right: 10px;
 }
 
-li p{
+.li-task-p{
 
-font-family: Montserrat;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
+font-family: #0a083a;
 font-size: 14px;
 line-height: 17px;
-padding-left: 5px;
-padding-right: 5px;
-border-bottom: 0.5px solid #E0E0E0;
-padding-bottom: 22px;
+
 }
+
 
 .li-img {
 width: 10px;
@@ -110,3 +144,27 @@ height: 10px;
 padding: 17px 0px 0px 1px;
     }
     
+.hidden {
+visibility: hidden;
+
+}
+
+.input-task {
+display: grid;
+grid-template-columns: 90% 10%;
+outline: none;
+border: none;
+height: 34px;
+width: 260px;
+
+}
+
+.summatask{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 27px;
+color: #1D262C;
+
+}
