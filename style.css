@@ -1,16 +1,14 @@
 body {
+max-width: 1200px;
 margin-left: 58px;
 margin-right: 58px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
 
 }
 
-p {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-}
 
 header {
 display: grid;
@@ -50,7 +48,7 @@ color: #5B63A9;
 padding: 0px 0px 12px 4px;
 }
 .menu-profile {
-    padding: 15px 32px 15px 16px;
+    padding: 5px 25px 25px 18px;
     list-style-type: none;
     background: rgb(255, 255, 255);
     box-shadow: 0 3px 12px rgba(10,8,58,.0509804);
@@ -78,11 +76,11 @@ height: 599px;
 }
 
 .inbox-right {
-background-color: aqua;
+
     }
 
 .inbox-left {
-background-color: rgb(17, 0, 255);
+    background-color: honeydew;
  }
 
  h1 {
@@ -113,14 +111,14 @@ color: #1D262C;
 .ul-task {
 width: 100%;
 height: 24px;
-padding: 0px 0px 0px 0px;
+padding: 0px;
 
 }
 
 .li-task {
 list-style-type: none;
 display: grid;
-grid-template-columns: 2% 40% 15% 15% 18% 10%;
+grid-template-columns: 2% 50% 15% 15% 18%;
 border-bottom: 0.5px solid #E0E0E0;
 padding-left: 10px;
 padding-right: 10px;
@@ -160,11 +158,100 @@ width: 260px;
 }
 
 .summatask{
-font-family: Poppins;
-font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 27px;
 color: #1D262C;
 
+}
+
+.inbox-left button {
+    margin-bottom: 6px;
+    margin-right: auto;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+  }
+  
+.todo-inport {
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    border-radius: 4px;
+
+}
+
+.status {
+background: rgba(242, 153, 74, 0.2);
+border-radius: 8px;
+font-size: 14px;
+width: 110px;
+height: 17px;
+color: #F2994A;
+padding: 5px 5px 9px 16px;
+
+
+}
+
+.priority {
+    border-radius: 8.5px;
+    text-align: center;
+    height: 17px;
+    color: #F2994A;
+    padding-bottom: 5px;
+    
+    }
+.menutask {
+width: 22px;
+height: 22px;
+margin: autos;
+
+}
+
+.select-menu  {
+    width: 100px;
+    padding: 5px 5px 5px 16px;
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 12px rgba(10,8,58,.0509804);
+    border-radius: 8px;
+    border: 1px solid #e0e0e088;
+    margin-left: 82%;
+
+}
+
+
+.status-select {
+
+    width: 110px;
+    padding: 5px 5px 5px 16px;
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 12px rgba(10,8,58,.0509804);
+    border-radius: 8px;
+    border: 1px solid #e0e0e088;
+    position: absolute;
+    left: 34.6%;
+    margin-top: 50px;
+
+
+}
+
+.status-select-li {
+
+
+}
+
+.status-new:hover {
+color: #F2994A;
+}
+
+.status-progress:hover {
+color: #56CCF2;
+
+}
+
+.status-closed:hover {
+color: #EB5757;
 }
